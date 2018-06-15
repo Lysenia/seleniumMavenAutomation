@@ -1,5 +1,6 @@
 package com.dice;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -62,7 +63,7 @@ System.setProperty("webdriver.chrome.driver","/Users/lesia/Documents/selenium de
 				System.out.println("Step FAIL: KeyWord " + keyWord );
 			}
 		
-		
+		System.out.println("TEST COMPLETED: " + LocalDateTime.now());
 		driver.close();
 	
 	}
